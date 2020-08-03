@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+	"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.USERNAME.filewatcher</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Users/USERNAME/Library/Scripts/fix_broken_symlinks.py</string>
+    </array>
+    <key>WatchPaths</key>
+    <array>
+            <string>/Users/USERNAME/ZotFile Import</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/e</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/d</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/c</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/b</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/a</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/9</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/8</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/7</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/6</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/5</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/4</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/3</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/2</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/1</string>
+            <string>/Users/USERNAME/DEVONthink/Research.dtBase2/Files.noindex/pdf/0</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/e</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/d</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/c</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/b</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/a</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/9</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/8</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/7</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/6</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/5</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/4</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/3</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/2</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/1</string>
+            <string>/Users/USERNAME/DEVONthink/Archived.dtBase2/Files.noindex/pdf/0</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/e</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/d</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/c</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/b</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/a</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/9</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/8</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/7</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/6</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/5</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/4</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/3</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/2</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/1</string>
+            <string>/Users/USERNAME/DEVONthink/Books.dtBase2/Files.noindex/pdf/0</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/f</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/e</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/d</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/c</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/b</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/a</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/9</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/8</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/7</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/6</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/5</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/4</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/3</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/2</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/1</string>
+            <string>/Users/USERNAME/DEVONthink/Jobs.dtBase2/Files.noindex/pdf/0</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdff</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdff</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdfe</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdfd</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdfc</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdfb</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdfa</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf9</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf8</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf7</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf6</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf5</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf4</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf3</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf2</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf1</string>
+            <string>/Users/USERNAME/Library/Application Support/DEVONthink 3/Inbox.dtBase2/Files.noindex/pdf0</string>
+    </array>
+</dict>
+</plist>
