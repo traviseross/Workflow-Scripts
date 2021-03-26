@@ -50,7 +50,7 @@ def run_find(cmd_find):
 # command to check pdfs
 broken_links = f'find -L /Users/{USERNAME}/{ZOTERO_FOLDER} -type l -name "* - * - [0-9]*" ! -name "*.DS_Store" '
 zot_find = f'find /Users/{USERNAME}/{ZOTERO_FOLDER} -type l ! -name "*.DS_Store" '
-dt_find = f'find /{DT3_PATH} /Users/{USERNAME}/Library/Application\ Support/DEVONthink\ 3 -type f -name "* - * [0-9]*" \( -iname \*.pdf -o -iname \*.docx -o -iname \*.doc -o -iname \*.xlsx -o -iname \*.xls -o -iname \*.md -o -iname \*.ppt -o -iname \*.pptx \)'
+dt_find = f'find /{DT3_PATH} /Users/{USERNAME}/Library/Application\ Support/DEVONthink\ 3 -type f -name "* - * [0-9]*" \( -iname \*.pdf -o -iname \*.docx -o -iname \*.doc -o -iname \*.xlsx -o -iname \*.xls -o -iname \*.md -o -iname \*.ppt -o -iname \*.pptx -o -iname \*.epub \)'
 broken_links = run_find(broken_links)
 zot_files = run_find(zot_find)
 dt_files = run_find(dt_find)
