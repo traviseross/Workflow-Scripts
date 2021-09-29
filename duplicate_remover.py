@@ -30,18 +30,29 @@ broken_links_name = [link.split("/")[-1] for link in broken_links]
 dt_files_names = [link.split("/")[-1] for link in dt_files]
 
 for dupe in dupes:
+    i=0
+    doctest=dupe.split(".")[-1]
     dupe_name = dupe.split("/")[-1]
     pattern = re.compile(r'[0-9].pdf')
     fixed_name = pattern.sub('.pdf', dupe_name)
-    if fixed_name in dt_files_names:
-        confirm = input(f"replace {dupe_name} with {fixed_name}? y/n ")
-        if confirm == "y":
-                os.system(f"rm \"{dupe}\"")
+    if doctest=="doc":
+        i=1
+    elif doctest=="docx":
+        i=1
     else:
-        pattern = re.compile(r'[0-9].pdf')
-        fixed_full_path = pattern.sub('.pdf', dupe)
-        confirm = input(f"move {dupe_name} to {fixed_full_path}? y/n ")
-        if confirm == "y":
-            os.system(f"mv \"{dupe}\" \"{fixed_full_path}\"")
-            os.system(f'rm /Users/{USERNAME}/{ZOTERO_FOLDER}/\"{dupe_name}\"')
-            os.system(f'ln -snf \"{fixed_full_path}\" ~/{ZOTERO_FOLDER}/\"{fixed_name}\"')
+        i=0
+    if i>0:
+        pass
+    else:
+        if fixed_name in dt_files_names:
+            confirm = input(f"replace {dupe_name} with {fixed_name}? y/n ")
+            if confirm == "y":
+                    os.system(f"rm \"{dupe}\"")
+        else:
+            pattern = re.compile(r'[0-9].pdf')
+            fixed_full_path = pattern.sub('.pdf', dupe)
+            confirm = input(f"move {dupe_name} to {fixed_full_path}? y/n ")
+            if confirm == "y":
+                os.system(f"mv \"{dupe}\" \"{fixed_full_path}\"")
+                os.system(f'rm /Users/{USERNAME}/{ZOTERO_FOLDER}/\"{dupe_name}\"')
+                os.system(f'ln -snf \"{fixed_full_path}\" ~/{ZOTERO_FOLDER}/\"{fixed_name}\"')
